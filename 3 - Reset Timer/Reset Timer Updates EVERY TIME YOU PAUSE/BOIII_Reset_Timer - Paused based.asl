@@ -1,19 +1,10 @@
-state("boiii", "blackops3")
+state("blackops3")
 {
 	int resetTime : "blackops3.exe", 0x176F9358;
 	int levelTime : "blackops3.exe", 0xA5502C0;
 	int round : "blackops3.exe", 0xA55BDEC;
 	byte is_paused : "blackops3.exe", 0x347EE08; 
 	string13 currentMap : "blackops3.exe", 0x940C5E8;
-}
-
-state("blackops3")
-{
-	int resetTime : 0x176F9358;
-	int levelTime : 0xA5502C0;
-	int round : 0xA55BDEC;
-	byte is_paused : 0x347EE08; 
-	string13 currentMap : 0x940C5E8;
 }
 
 update

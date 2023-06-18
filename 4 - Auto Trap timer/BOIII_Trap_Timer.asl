@@ -1,4 +1,4 @@
-state("boiii", "blackops3")
+state("blackops3")
 {
 	int levelTime : "blackops3.exe", 0xA5502C0;
 	int round : "blackops3.exe", 0xA55BDEC;
