@@ -33,7 +33,7 @@ gameTime
 init
 {
 	refreshRate = 100;
-	vars.addr = game.MainModule.BaseAddress + 0x4D18748;
+	vars.addr = game.MainModule.BaseAddress + 0xA;
 	vars.fixedOffset = game.ReadValue<UInt16>((IntPtr)vars.addr);
 }
 
