@@ -23,6 +23,14 @@ split
         vars.split_index++;
         return true;
     }
+
+    // If the above condition doesn't trigger, check if the current round counter is one more than the old round counter
+    if(old.round_counter != 0 && current.round_counter == old.round_counter + 1)
+    {
+        return true;
+    }
+
+    return false;
 }
 
 gameTime
